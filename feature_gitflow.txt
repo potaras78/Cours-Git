@@ -19,7 +19,7 @@ $ git commit -m "C2: branche dev" --allow-empty
 # Option -u commits + réfs
 $ git push -u --all
 
-# Pour envoyer un/les tag(s)
+# Pour envoyer un/les tag(s) :
 git push origin v8
 
 # ou plus simplement
