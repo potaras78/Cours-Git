@@ -22,7 +22,7 @@ $ git diff --stat
 #remettre le dépôt dans l’état dans lequel il se trouvait juste avant une modification :
 $ git restore calzone.txt
 
-#changer uniquement le message du dernier commit
+#changer uniquement le message du dernier commit :
 $ git commit "un message" --amend --no-edit
 
 #revenir au commit souhaité
