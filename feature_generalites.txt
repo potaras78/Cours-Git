@@ -1,0 +1,37 @@
+#créer un nouveau dossier :
+$ mkdir [nom du dossier]
+
+# ouvrir le dossier
+$ cd [nom du dossier]
+
+# afficher sur la console
+$ echo
+
+# s'enregistre dans .gitconfig de votre compte user
+$ git config --global user.name Tony
+$ git config --global user.email tony@tony.fr
+
+# pour un dépôt en particulier, dans le fichier config du dossier .git/
+$ git config --local user.name Alan
+$ git config --local user.email alan@alan.fr
+
+# initialiser un dépôt
+$ git init
+
+# afficher le statut
+$ git status
+
+# ajouter un fichier
+$ git add [fichier]
+
+# créer un commit
+$ git commit -m "texte"
+
+# visualiser les commits
+$ git log
+
+# ne plus suivre un fichier
+$ git rm --cached [chemin du fichier]
+
+# voir les fichiers suivis
+$ git ls-files

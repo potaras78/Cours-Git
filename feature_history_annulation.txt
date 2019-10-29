@@ -1,0 +1,29 @@
+#consulter l’historique d’un fichier uniquement :
+$ git log [fichier]
+
+#rechercher des logs (messages des commits) :
+$ git log -E -i --grep='[nom du commit]'
+
+#voir qui a fait une modification :
+$ git blame [nom du fichier]
+
+#afficher les modifications dans le WD & l’index :
+$ git diff
+
+#afficher les différences entre le dernier commit et l’index :
+$ git diff --cached
+
+#voir modification après avoir commité :
+$ git diff HEAD-1
+
+#faire des stat sur les différences opérées dans les fichiers:
+$ git diff --stat
+
+#remettre le dépôt dans l’état dans lequel il se trouvait juste avant une modification :
+$ git restore calzone.txt
+
+#changer uniquement le message du dernier commit
+$ git commit "un message" --amend --no-edit
+
+#revenir au commit souhaité
+$ git reset [n° commit]
