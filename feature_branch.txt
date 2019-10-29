@@ -1,14 +1,14 @@
-# créer une branche
+# créer une branche :
 $ git branch [nom de la branche]
 
-# voir l'ensemble des branches sur le dépôt
+# voir l'ensemble des branches sur le dépôt :
 $ git branch
 
-# changer de branches
+# changer de branches :
 $ git checkout dev
 
-# supprimer une branche
+# supprimer une branche :
 $ git branch -d [nom de votre branche]
 
-# merger une branche dans une autre
+# merger une branche dans une autre :
 $ git merge [nom de la branche]
